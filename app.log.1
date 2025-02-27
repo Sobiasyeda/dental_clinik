@@ -1,0 +1,133 @@
+2024-08-28 22:52:08,433 - backend - ERROR - Exception on /get-bill [POST]
+Traceback (most recent call last):
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 27, in decorated
+    return f(current_user, *args, **kwargs)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 37, in decorated_function
+    return f(current_user,*args,**kwargs)
+  File "/home/johny/dental_26_02_2024/backend/views.py", line 1370, in getBill
+    patientId = data.get('patientId')
+AttributeError: 'str' object has no attribute 'get'
+2024-08-28 22:52:08,435 - backend - ERROR - Exception on /get-bill [POST]
+Traceback (most recent call last):
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 27, in decorated
+    return f(current_user, *args, **kwargs)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 37, in decorated_function
+    return f(current_user,*args,**kwargs)
+  File "/home/johny/dental_26_02_2024/backend/views.py", line 1370, in getBill
+    patientId = data.get('patientId')
+AttributeError: 'str' object has no attribute 'get'
+2024-08-28 22:52:11,022 - backend - ERROR - Exception on /get-bill [POST]
+Traceback (most recent call last):
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 27, in decorated
+    return f(current_user, *args, **kwargs)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 37, in decorated_function
+    return f(current_user,*args,**kwargs)
+  File "/home/johny/dental_26_02_2024/backend/views.py", line 1370, in getBill
+    patientId = data.get('patientId')
+AttributeError: 'str' object has no attribute 'get'
+2024-08-28 22:52:11,022 - backend - ERROR - Exception on /get-bill [POST]
+Traceback (most recent call last):
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 27, in decorated
+    return f(current_user, *args, **kwargs)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 37, in decorated_function
+    return f(current_user,*args,**kwargs)
+  File "/home/johny/dental_26_02_2024/backend/views.py", line 1370, in getBill
+    patientId = data.get('patientId')
+AttributeError: 'str' object has no attribute 'get'
+2024-08-28 22:52:17,820 - backend - ERROR - Exception on /get-bill [POST]
+Traceback (most recent call last):
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 27, in decorated
+    return f(current_user, *args, **kwargs)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 37, in decorated_function
+    return f(current_user,*args,**kwargs)
+  File "/home/johny/dental_26_02_2024/backend/views.py", line 1370, in getBill
+    patientId = data.get('patientId')
+AttributeError: 'str' object has no attribute 'get'
+2024-08-28 22:52:17,824 - backend - ERROR - Exception on /get-bill [POST]
+Traceback (most recent call last):
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 27, in decorated
+    return f(current_user, *args, **kwargs)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 37, in decorated_function
+    return f(current_user,*args,**kwargs)
+  File "/home/johny/dental_26_02_2024/backend/views.py", line 1370, in getBill
+    patientId = data.get('patientId')
+AttributeError: 'str' object has no attribute 'get'
+2024-08-28 22:53:20,998 - backend - ERROR - Exception on /get-bill [POST]
+Traceback (most recent call last):
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/johny/dental_26_02_2024/venv/lib/python3.10/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 27, in decorated
+    return f(current_user, *args, **kwargs)
+  File "/home/johny/dental_26_02_2024/backend/auth_decorators.py", line 37, in decorated_function
+    return f(current_user,*args,**kwargs)
+  File "/home/johny/dental_26_02_2024/backend/views.py", line 1370, in getBill
+    patientId = data.get('patientId')
+AttributeError: 'str' object has no attribute 'get'
